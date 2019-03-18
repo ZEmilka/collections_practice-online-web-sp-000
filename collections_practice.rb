@@ -29,7 +29,13 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find_all do |word|
+  array.find_all do |word|  #or .select instead of.find_all
     word[0] == "a"
   end
+end
+
+def sum_array(array)
+  array.inject do |sum , numb|
+    sum + numb
+  end  
 end
