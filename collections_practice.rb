@@ -37,5 +37,5 @@ end
 def sum_array(array)
   array.inject do |sum , numb|
     sum + numb
-  end  
+  end
 end
