@@ -39,3 +39,12 @@ def sum_array(array)
     sum + numb
   end
 end
+
+def add_s(array)
+  array.each_with_index do |word , index|
+    if index == 1
+      retrun word
+    else
+      word + "s"
+    end
+end
